@@ -9,8 +9,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5|^8.0",
+        "anhskohbo/no-captcha": "^3.3",
+        "buzz/laravel-google-captcha": "^2.3",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
+        "gregwar/captcha": "^1.1",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
         "laravel-lang/lang": "~7.0",
         "laravel/framework": "^7.29",

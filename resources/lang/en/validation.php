@@ -133,6 +133,10 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'g-recaptcha-response' => [
+            'required' => '请验证你不是机器人',
+            'captcha' => '验证码出错,请稍后再试',
+        ],
     ],
 
     /*

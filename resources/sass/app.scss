@@ -1,14 +1,14 @@
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 /* universal */
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 16px;
@@ -26,8 +26,6 @@ body {
   margin-top: 0px;
 }
 
-
-
 /* Sticky footer styles */
 html {
   position: relative;
@@ -39,25 +37,12 @@ body {
   margin-bottom: 60px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #000;
 
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-
-    p {
-      margin: 19px 0;
-      color: #c1c1c1;
-
-      a {
-        color: inherit;
-      }
-    }
+.register-page {
+  img.captcha {
+    cursor: pointer;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 3px;
   }
 }
