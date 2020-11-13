@@ -1,5 +1,5 @@
-@foreach (['danger','success','warning','info'] as $img)
-    @if(session()->has($img))
+@foreach (['danger','success','warning','info'] as $msg)
+    @if(session()->has($msg))
     <div class="flash-message">
     <p class="alert alert-{{$msg}}">
     {{session()->get($msg)}}
