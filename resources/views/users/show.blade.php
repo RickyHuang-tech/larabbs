@@ -19,6 +19,7 @@
   </div>
   <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
     <div class="card ">
+    <img src="{{$user->avatar}}" alt="{{$user->name}}" class="card-img-top">
       <div class="card-body">
           <h1 class="mb-0" style="font-size:22px;">{{ $user->name }} <small>{{ $user->email }}</small></h1>
       </div>
