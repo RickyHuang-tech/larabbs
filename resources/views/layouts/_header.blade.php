@@ -24,8 +24,8 @@
       @else
       <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="{{Auth::user()->avatar}}" class="img-responsive img-circle" width="30px" height="30px">
-            {{Auth::user()->name}}
+              <img src="{{ Auth::user()->avatar }}" class="img-responsive img-circle" width="30px" height="30px">
+              {{ Auth::user()->name }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="">个人中心</a>
