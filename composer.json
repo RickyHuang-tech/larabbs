@@ -19,6 +19,7 @@
         "laravel-lang/lang": "~7.0",
         "laravel/framework": "^7.29",
         "laravel/tinker": "^2.5",
+        "mews/purifier": "~3.0",
         "summerblue/laravel-active": "7.*"
     },
     "require-dev": {
