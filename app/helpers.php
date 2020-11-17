@@ -10,3 +10,10 @@ function route_class()
 {
         return  active_class((if_route('categories.show')&& if_route_param('category',$cat_id)));
 }
+
+function make_excerpt($value, $length = 200)
+{
+    $excerpt = trim(preg_replace('/\r\n|\r|\n+/', ' ', strip_tags($value)));
+    return
+    Illuminate\Support\Str::limit($excerpt, $length);
+}
