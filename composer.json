@@ -14,12 +14,15 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "gregwar/captcha": "^1.1",
-        "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
+        "guzzlehttp/guzzle": "~6.3",
         "intervention/image": "^2.5",
         "laravel-lang/lang": "~7.0",
         "laravel/framework": "^7.29",
+        "laravel/helpers": "^1.4",
         "laravel/tinker": "^2.5",
         "mews/purifier": "~3.0",
+        "overtrue/pinyin": "~4.0",
+        "predis/predis": "~1.1",
         "summerblue/laravel-active": "7.*"
     },
     "require-dev": {

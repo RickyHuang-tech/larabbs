@@ -34,5 +34,9 @@ class Topic extends Model
             return $query->orderBy('created_at','desc');
         # code...
     }
+    public function replies()
+    {
+        $this->hasMany(Reply::class);
+    }
 
 }
