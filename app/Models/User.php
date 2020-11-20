@@ -44,6 +44,6 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function replies()
     {
-        $this->hasMany(Reply::class);
+        return $this->hasMany(Reply::class);
     }
 }
