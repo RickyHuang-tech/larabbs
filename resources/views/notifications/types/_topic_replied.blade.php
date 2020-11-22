@@ -12,6 +12,7 @@
       <a href="">{{ $notification->data['topic_title'] }}</a>
 
       {{-- 回复删除按钮 --}}
+     
       <span class="meta float-right" title="{{ $notification->created_at }}">
         <i class="far fa-clock"></i>
         {{ $notification->created_at->diffForHumans() }}
