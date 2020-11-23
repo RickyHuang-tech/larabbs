@@ -17,7 +17,9 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name='Admin';
         $user->email='admin@gmail.com';
-        $user->avatar= 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
+        $user->avatar= 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';        $user->assignRole('Founder');
+        $user = User::find(2);
+        $user->assignRole('Maintainer');
         $user->save();
 
     }
