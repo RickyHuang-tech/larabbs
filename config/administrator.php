@@ -42,7 +42,12 @@ return array(
         '用户与权限' => [
             'users',
             'roles',
-            'permission'
+            'permissions'
+        ],
+        '内容管理' => [
+            'categories',
+            'topics',
+            'replies',
         ],
     ],
 

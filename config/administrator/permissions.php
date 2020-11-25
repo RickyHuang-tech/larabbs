@@ -1,7 +1,6 @@
 <?php
 
 use Spatie\Permission\Models\Permission;
-use Illuminate\Support\Facades\Auth;
 
 return [
     'title'   => '权限',
