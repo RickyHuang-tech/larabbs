@@ -11,6 +11,7 @@ use Illuminate\Support\Str;
 
 class User extends Authenticatable implements MustVerifyEmail
 {
+    use Traits\ActiveUserHelper;
     use Notifiable;
     use Notifiable {
         notify as protected laravelNotify;
