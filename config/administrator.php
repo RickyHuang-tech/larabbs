@@ -42,7 +42,7 @@ return array(
         '用户与权限' => [
             'users',
             'roles',
-            'permissions'
+            'permissions',
         ],
         '内容管理' => [
             'categories',
@@ -51,6 +51,7 @@ return array(
         ],
         '站点管理' => [
             'settings.site',
+            'links'
         ],
     ],
 

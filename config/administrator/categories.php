@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\Category;
-
+use Illuminate\Support\Facades\Auth;
 return [
     'title'   => '分类',
     'single'  => '分类',
